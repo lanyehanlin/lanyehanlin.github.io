@@ -73,6 +73,48 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-tenth-day" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/07/05/tenth-day/" class="article-date">
+  <time class="dt-published" datetime="2023-07-05T12:22:56.000Z" itemprop="datePublished">2023-07-05</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2023/07/05/tenth-day/">tenth day</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p><strong>实训第十天</strong></p>
+<p>  今天是实训的第十天，今天主要是学习了简单程序的逆向。</p>
+<p>  就拿今天的练手题举例，先下载配置好ollydbg，打开要逆向的程序，发现这个程序有一个注册页面，随便输入，显示“注册名或注册码不正确”，再把要逆向的可执行文件（.exe）拖到ollydbg中，然后在左上角这个框右键-&gt; 查找-&gt;所有参考文本字串，在所有文本字串中找到“注册名或注册码不正确”这一条，双击追踪，跟着红线找到跳转前的位置，在该位置设置断点，F9运行程序，程序在断点处停下，查看ollydbg的寄存器页面，将z改成1，保存再次运行程序，发现注册界面已被跳过，程序逆向成功。</p>
+<p>今天学习内容不难，就是简单程序逆向，我还会继续努力的。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/07/05/tenth-day/" data-id="cljpoygkn0000q4vgancdcdhu" data-title="tenth day" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-ninth-day" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2023/07/04/ninth-day/" class="article-date">
@@ -359,6 +401,10 @@
       <ul>
         
           <li>
+            <a href="/2023/07/05/tenth-day/">tenth day</a>
+          </li>
+        
+          <li>
             <a href="/2023/07/04/ninth-day/">ninth day</a>
           </li>
         
@@ -372,10 +418,6 @@
         
           <li>
             <a href="/2023/06/29/fourth-day-1/">fourth day</a>
-          </li>
-        
-          <li>
-            <a href="/2023/06/28/third-day/">third day</a>
           </li>
         
       </ul>
