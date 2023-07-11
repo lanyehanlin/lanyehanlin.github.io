@@ -73,6 +73,48 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-sixteenth-day" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/07/11/sixteenth-day/" class="article-date">
+  <time class="dt-published" datetime="2023-07-11T12:15:49.000Z" itemprop="datePublished">2023-07-11</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2023/07/11/sixteenth-day/">sixteenth day</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p><strong>实训第十六天</strong></p>
+<p>  今天是实训的第十六天，今天主要完成了buuctf misc的21-25题。</p>
+<p>  21题下载后发现是一张图片，直接分析该图片发现由base64加密的flag，对flag解密得到flag；22题分析图片可以得到一串二进制数，用工具将二进制转换成asc||即可以得到flag；23题分析图片无果，扔进stegsolve在RGB三色通道发现类似二维码的背景，考虑lsb隐写，结果发现zip文件，对该文件分析，找到falg；24题打开一个类似龙卷风的文本，查了半天发现是Brainfuck加密，复制文本解密得到flag；25题是一道流量分析图，对该文件进行流量追踪得到一大串代码，直接解码解不出来，查了半天才明白是base64转图片，在转出的图片上看到了flag。</p>
+<p>  今天主要是完成了这么几道题目，学习了相关的解题知识，提高了我的解题能力。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/07/11/sixteenth-day/" data-id="cljy9tqa90000lcvg2k2zbcvq" data-title="sixteenth day" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-fifteenth-day" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2023/07/10/fifteenth-day/" class="article-date">
@@ -452,48 +494,6 @@
 
 
   
-    <article id="post-third-day" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/06/28/third-day/" class="article-date">
-  <time class="dt-published" datetime="2023-06-28T12:26:47.000Z" itemprop="datePublished">2023-06-28</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/06/28/third-day/">third day</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>今天是实训的第三天，今天学习了php以及phpstudy的使用，以及正式开始了web的学习。</p>
-<p>今天的主要难点在于通过各种方式获得网站信息，以及各种漏洞的寻找。通过今天的训练，我初步掌握了php基本语法以及使用，以及能用php简单写些代码，并能读懂大部分php语句。</p>
-<p>同时，今天我完成了ctfshow中的题目，这锻炼了我的实操能力，让我能找到一些简单的web漏洞。</p>
-<p>今天的训练让我感受到了压力，但我不会退缩，在今后的学习中我会更加认真努力。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/06/28/third-day/" data-id="cljfp8g920000v0vg9ey7axd0" data-title="third day" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
 
 
   <nav id="page-nav">
@@ -530,6 +530,10 @@
       <ul>
         
           <li>
+            <a href="/2023/07/11/sixteenth-day/">sixteenth day</a>
+          </li>
+        
+          <li>
             <a href="/2023/07/10/fifteenth-day/">fifteenth day</a>
           </li>
         
@@ -543,10 +547,6 @@
         
           <li>
             <a href="/2023/07/06/eleventh-day/">eleventh day</a>
-          </li>
-        
-          <li>
-            <a href="/2023/07/05/tenth-day/">tenth day</a>
           </li>
         
       </ul>
