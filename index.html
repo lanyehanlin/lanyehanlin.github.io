@@ -73,6 +73,48 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-nineteenth-day" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/07/14/nineteenth-day/" class="article-date">
+  <time class="dt-published" datetime="2023-07-14T12:06:21.000Z" itemprop="datePublished">2023-07-14</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2023/07/14/nineteenth-day/">nineteenth day</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p><strong>实训第十九天</strong></p>
+<p>  今天是实训的第十九天，今天主要是完成了buuctf上misc的三道题以及一场awd比赛。</p>
+<p>  今天完成的第一道题是认真你就输了，下载解压后发现是一个xls文件，能正常打开，但打开半天也找不到什么头绪，把文件分析后发现这本应该是一个zip文件，修改后缀为zip，打开压缩文件，在其中找到一个flag文件，打开得到flag；第二道是藏藏藏，打开图片没有隐藏信息，分析文件可以发现有隐藏文件，使用foremost分离可以得到一个文档，打开发现是一个二维码，扫描可以得到答案；第三道题是被偷走的文件，下载文件是一个流量文件，打开后进行流量分析，看到flag被偷走了，使用binwalk分离文件，得到一个压缩包，对该压缩包分析发现不是伪加密，尝试四位数字暴破得到密码5790，打开压缩文件得到flag。今天还有一场awd比赛，但由于我连接一会儿就断开，比赛体验不是很好，就不说了。</p>
+<p>今天所做的题目给了我其他的解题思路，对我很有帮助。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/07/14/nineteenth-day/" data-id="clk2kbbgo00000gvg4ksa84yg" data-title="nineteenth day" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-eighteenth-day" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2023/07/13/eighteenth-day/" class="article-date">
@@ -452,48 +494,6 @@
 
 
   
-    <article id="post-sixth-day" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/07/01/sixth-day/" class="article-date">
-  <time class="dt-published" datetime="2023-07-01T12:09:59.000Z" itemprop="datePublished">2023-07-01</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/07/01/sixth-day/">sixth day</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>今天是实训第六天，今天进行了第二次的web培训。</p>
-<p>今天主要学习了命令注入与文件包含。命令注入就是抓住网站的漏洞，在网站上执行自己想要执行的命令，以达到获取信息的目的。文件包含是把相关的文件包含进来，在通过post命令获取相关的flag。除此之外，还学习了伪协议相关的内容。</p>
-<p>今天学习的内容有些复杂，难度较高，学习起来较为吃力。另外，经过今天的学习，我发现我对web相关工具的熟练度还不够，没办法合理运用。不过，在接下来的学习中，我会多做多练，合理迅速的运用相关工具，达到快速解题的目标。</p>
-<p>今天收获颇丰，接下来还要更加努力。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/07/01/sixth-day/" data-id="cljjyogx700004wvg8t5272va" data-title="sixth day" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
 
 
   <nav id="page-nav">
@@ -530,6 +530,10 @@
       <ul>
         
           <li>
+            <a href="/2023/07/14/nineteenth-day/">nineteenth day</a>
+          </li>
+        
+          <li>
             <a href="/2023/07/13/eighteenth-day/">eighteenth day</a>
           </li>
         
@@ -543,10 +547,6 @@
         
           <li>
             <a href="/2023/07/10/fifteenth-day/">fifteenth day</a>
-          </li>
-        
-          <li>
-            <a href="/2023/07/08/thirteenth-day/">thirteenth day</a>
           </li>
         
       </ul>
